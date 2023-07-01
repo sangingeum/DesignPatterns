@@ -1,5 +1,4 @@
 #include "Singleton.hpp"
-#include <iostream>
 
 
 void checkSingleton() {
