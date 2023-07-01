@@ -17,29 +17,19 @@ is set to public, which may lead to unexpected deletion of Target instances.
 */
 
 
-class Target {
-	Target(size_t id) : m_id(id) {}
-	Target(const Target&) = delete; // delete copy constructor
-	void operator=(const Target&) = delete; // delete assignment operation
-	~Target() = default;
-	// friend Multiton
-	friend class Multiton;
+class Multiton
+{
+	Multiton(size_t id) : m_id(id) {}
+	Multiton(const Multiton&) = delete; // delete copy constructor
+	void operator=(const Multiton&) = delete; // delete assignment operation
+	static std::unordered_map<size_t, Multiton*> m_instanceMap;
+	~Multiton() = default;
 	size_t m_id{ 0 };
 public:
+	static Multiton* instance(size_t index);
+	static void clear();
 	void log() {
 		std::cout << "Address " << this << ", Num " << m_id << "\n";
 	}
-};
-
-class Multiton
-{
-	Multiton() = default;
-	Multiton(const Multiton&) = delete; // delete copy constructor
-	void operator=(const Multiton&) = delete; // delete assignment operation
-	static std::unordered_map<size_t, Target*> m_instanceMap;
-	~Multiton() = default;
-public:
-	static Target* instance(size_t index);
-	static void clear();
 };
 

@@ -1,10 +1,9 @@
 #include "Multiton.hpp"
-std::unordered_map<size_t, Target*> Multiton::m_instanceMap;
+std::unordered_map<size_t, Multiton*> Multiton::m_instanceMap;
 
-
-Target* Multiton::instance(size_t index) {
+Multiton* Multiton::instance(size_t index) {
 	if (m_instanceMap.find(index) == m_instanceMap.end()) {
-		m_instanceMap[index] = new Target(index);
+		m_instanceMap[index] = new Multiton(index);
 	}
 	return m_instanceMap[index];
 }
