@@ -1,6 +1,6 @@
 #include "Multiton.hpp"
 int main() {
-	// checks if instances at the same index 
+	// check if instances at the same index 
 	// have the same address
 	Multiton::instance(0)->log();
 	Multiton::instance(0)->log();

@@ -19,10 +19,10 @@ public:
 						   // m_instanceMap always holds ownership and the references
 						   // of the shared_ptrs in the m_instanceMap are not accessible outside
 						   // the class
-	static std::shared_ptr<Multiton> instance(size_t index);
+	static std::shared_ptr<Multiton> instance(size_t id);
 	static void clear();
 	void log() {
-		std::cout << "Address " << this << ", Num " << m_id << "\n";
+		std::cout << "Address " << this << ", ID " << m_id << "\n";
 	}
 };
 
