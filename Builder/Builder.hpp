@@ -30,10 +30,10 @@ public:
 class IcecreamBuilder : public Builder
 {	
 public:
-	virtual void reset();
-	virtual void setName();
-	virtual void setID();
-	virtual void setFlavor(const std::string& str);
-	virtual void setCompany();
-	virtual std::unique_ptr<Product> getResult();
+	virtual void reset() override;
+	virtual void setName() override;
+	virtual void setID() override;
+	virtual void setFlavor(const std::string& str) override;
+	virtual void setCompany() override;
+	virtual std::unique_ptr<Product> getResult() override;
 };
