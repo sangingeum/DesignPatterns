@@ -128,7 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="multitonMain.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Multiton.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -129,7 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AbstractFactory.cpp" />
-    <ClCompile Include="abstractFactoryMain.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="AbstractProduct.cpp" />
     <ClCompile Include="ConcreteFactory.cpp" />
     <ClCompile Include="ConcreteProduct.cpp" />

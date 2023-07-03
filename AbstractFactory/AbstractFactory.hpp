@@ -6,7 +6,7 @@
 Singleton Abstract Factory
 Use ::instance() to get the instance
 ConcreteFactoryA - chairA, deskA
-ConcreteFactoryB - chairB, deskB
+ConcreteFactoryB - chairB, deskB+
 */
 
 class AbstractFactory
