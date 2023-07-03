@@ -19,6 +19,7 @@ protected:
 	virtual ~Factory() = default;
 public:
 	static Factory& instance() {}
+	size_t getCount();
 	virtual std::unique_ptr<Product> createProduct() = 0;
 };
 
