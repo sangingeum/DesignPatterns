@@ -1,15 +1,17 @@
 #include "Multiton.hpp"
 int main() {
+	// checks if instances at the same index 
+	// have the same address
+	Multiton::instance(0)->log();
+	Multiton::instance(0)->log();
+	Multiton::instance(1)->log();
+	Multiton::instance(1)->log();
+	Multiton::instance(2)->log();
+	Multiton::instance(2)->log();
+	Multiton::instance(3)->log();
+	Multiton::instance(3)->log();
 
-	Multiton::instance(0)->log();
-	Multiton::instance(0)->log();
-	Multiton::instance(1)->log();
-	Multiton::instance(1)->log();
-	Multiton::instance(2)->log();
-	Multiton::instance(2)->log();
-	Multiton::instance(3)->log();
-	Multiton::instance(3)->log();
-	Multiton::clear();
+	Multiton::clear(); // This will clear all the instances created so far.
 	Multiton::instance(0)->log();
 	Multiton::instance(0)->log();
 	Multiton::instance(1)->log();
