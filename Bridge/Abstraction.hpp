@@ -1,6 +1,5 @@
 #pragma once
 #include <string>
-#include <memory>
 #include "Implementor.hpp"
 class Abstraction
 {
