@@ -1,7 +1,9 @@
 #include "Abstraction.hpp"
-void Implementor::showFirstName() {
-	std::cout << m_firstName;
+void Abstraction::showName() {
+	m_implementor.showFirstName();
+	std::cout << " ";
+	m_implementor.showLastName();
 }
-void Implementor::showLastName() {
-	std::cout << m_lastName;
+void Abstraction::showFeature() {
+	m_implementor.showOperation();
 }

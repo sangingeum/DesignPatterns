@@ -7,5 +7,6 @@ void ConcreteImplementorA::showOperation() {
 }
 void ConcreteImplementorB::showOperation() {
 	std::cout << "[" << m_basicOperation1 << " & " <<
-		m_basicOperation2 << " & " << m_advancedOperation << "]";
+		m_basicOperation2 << " & " << m_advancedOperation1 
+		<< " & " << m_advancedOperation2 << "]";
 }

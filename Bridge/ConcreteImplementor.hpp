@@ -13,7 +13,7 @@ public:
 class ConcreteImplementorB : public Implementor
 {
 protected:
-	std::string m_advancedOperation{"Swim"};
+	std::string m_advancedOperation1{"Swim"}, m_advancedOperation2{"Dive"};
 public:
 	ConcreteImplementorB() : Implementor("Linda", "Taylor") {}
 	virtual void showOperation() override;

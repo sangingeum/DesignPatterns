@@ -10,7 +10,7 @@ public:
 	Abstraction(Implementor& implementor)
 		: m_implementor(implementor){}
 	~Abstraction() = default;
-	virtual void showName() = 0;
-	virtual	void showFeature() = 0;
+	virtual void showName();
+	virtual	void showFeature();
 };
 
