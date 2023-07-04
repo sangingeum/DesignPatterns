@@ -12,3 +12,4 @@ This repository contains a collection of c++ design pattern implementations
 * Builder
 ### Structural Patterns
 * Adapter
+* Bridge
