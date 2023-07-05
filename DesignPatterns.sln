@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bridge", "Bridge\Bridge.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composite", "Composite\Composite.vcxproj", "{BDE053D6-0BCC-4284-9EB6-A77F42A1BBB6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decorator", "Decorator\Decorator.vcxproj", "{BF318941-3F24-4CFA-B2EA-52991E14C55C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{BDE053D6-0BCC-4284-9EB6-A77F42A1BBB6}.Release|x64.Build.0 = Release|x64
 		{BDE053D6-0BCC-4284-9EB6-A77F42A1BBB6}.Release|x86.ActiveCfg = Release|Win32
 		{BDE053D6-0BCC-4284-9EB6-A77F42A1BBB6}.Release|x86.Build.0 = Release|Win32
+		{BF318941-3F24-4CFA-B2EA-52991E14C55C}.Debug|x64.ActiveCfg = Debug|x64
+		{BF318941-3F24-4CFA-B2EA-52991E14C55C}.Debug|x64.Build.0 = Debug|x64
+		{BF318941-3F24-4CFA-B2EA-52991E14C55C}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF318941-3F24-4CFA-B2EA-52991E14C55C}.Debug|x86.Build.0 = Debug|Win32
+		{BF318941-3F24-4CFA-B2EA-52991E14C55C}.Release|x64.ActiveCfg = Release|x64
+		{BF318941-3F24-4CFA-B2EA-52991E14C55C}.Release|x64.Build.0 = Release|x64
+		{BF318941-3F24-4CFA-B2EA-52991E14C55C}.Release|x86.ActiveCfg = Release|Win32
+		{BF318941-3F24-4CFA-B2EA-52991E14C55C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
