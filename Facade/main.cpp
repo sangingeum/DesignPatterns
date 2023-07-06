@@ -5,7 +5,9 @@ int main() {
 	SubsystemB sysB;
 	SubsystemC sysC;
 	SubsystemD sysD;
-	Facade facade(sysA, sysB, sysC, sysD); // facade design gives clients simple interface to use subsystems
+	Facade facade(sysA, sysB, sysC, sysD);
+
+	// The Facade pattern offers a simple interface to the subsystems
 	std::cout << facade.createRegularBurger() << "\n";
 	std::cout << facade.createDoublePattyBurger() << "\n";
 
