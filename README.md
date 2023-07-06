@@ -16,3 +16,4 @@ This repository contains a collection of c++ design pattern implementations
 * Composite
 * Decorator
 * Facade
+* Flyweight
