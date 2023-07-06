@@ -3,7 +3,7 @@
 #include <vector>
 #include <chrono>
 #include <thread>
-#include "utils.hpp" // This code works only on windows
+#include "utils.hpp" // This code works on windows only
 
 int main() {
 	std::vector<std::unique_ptr<MovingObject>> objectVector;

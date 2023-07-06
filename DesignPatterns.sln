@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Facade", "Facade\Facade.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Flyweight", "Flyweight\Flyweight.vcxproj", "{2D66673A-DE04-44C2-A84C-5C822F15C719}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Proxy", "Proxy\Proxy.vcxproj", "{6EE90F28-F48A-4810-9982-903DDADF6361}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{2D66673A-DE04-44C2-A84C-5C822F15C719}.Release|x64.Build.0 = Release|x64
 		{2D66673A-DE04-44C2-A84C-5C822F15C719}.Release|x86.ActiveCfg = Release|Win32
 		{2D66673A-DE04-44C2-A84C-5C822F15C719}.Release|x86.Build.0 = Release|Win32
+		{6EE90F28-F48A-4810-9982-903DDADF6361}.Debug|x64.ActiveCfg = Debug|x64
+		{6EE90F28-F48A-4810-9982-903DDADF6361}.Debug|x64.Build.0 = Debug|x64
+		{6EE90F28-F48A-4810-9982-903DDADF6361}.Debug|x86.ActiveCfg = Debug|Win32
+		{6EE90F28-F48A-4810-9982-903DDADF6361}.Debug|x86.Build.0 = Debug|Win32
+		{6EE90F28-F48A-4810-9982-903DDADF6361}.Release|x64.ActiveCfg = Release|x64
+		{6EE90F28-F48A-4810-9982-903DDADF6361}.Release|x64.Build.0 = Release|x64
+		{6EE90F28-F48A-4810-9982-903DDADF6361}.Release|x86.ActiveCfg = Release|Win32
+		{6EE90F28-F48A-4810-9982-903DDADF6361}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
