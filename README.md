@@ -20,3 +20,4 @@ This repository contains a collection of c++ design pattern implementations
 * Proxy
 ### Behavioral Patterns
 * Chain of Responsibility
+* Command
