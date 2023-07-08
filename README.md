@@ -21,3 +21,4 @@ This repository contains a collection of c++ design pattern implementations
 ### Behavioral Patterns
 * Chain of Responsibility
 * Command
+* Iterator
