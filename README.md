@@ -18,3 +18,5 @@ This repository contains a collection of c++ design pattern implementations
 * Facade
 * Flyweight
 * Proxy
+### Behavioral Patterns
+* Chain of Responsibility
