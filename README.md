@@ -23,3 +23,4 @@ This repository contains a collection of c++ design pattern implementations
 * Command
 * Iterator
 * Mediator
+* Memento
