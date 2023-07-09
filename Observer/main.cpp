@@ -15,7 +15,7 @@ int main() {
 	}   // observer3 is destroyed -> subject automatically detects that and adjust its list of subscribers
 	subject->setState("Excellent"); // Two observers are notified
 	subject->removeSubscriber(observer2);
-	subject->setState("Normal"); // One observers is notified
+	subject->setState("Normal"); // One observer is notified
 
 	return 0;
 }
