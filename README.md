@@ -22,3 +22,4 @@ This repository contains a collection of c++ design pattern implementations
 * Chain of Responsibility
 * Command
 * Iterator
+* Mediator
