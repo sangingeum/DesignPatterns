@@ -28,3 +28,4 @@ This repository contains a collection of c++ design pattern implementations
 * State
 * Strategy
 * Template Method
+* Visitor
