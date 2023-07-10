@@ -13,36 +13,17 @@ public:
 class ConcreteStrategyBasic : public Strategy
 {
 public:
-	virtual void traverse(const std::vector<int>& arr) override {
-		for (int num : arr) {
-			std::cout << num << " ";
-		}
-		std::cout << "\n";
-	}
+	virtual void traverse(const std::vector<int>& arr) override;
 };
 
 class ConcreteStrategyIncreasing : public Strategy
 {
 public:
-	virtual void traverse(const std::vector<int>& arr) override {
-		auto tempArr = arr;
-		std::sort(tempArr.begin(), tempArr.end());
-		for (int num : tempArr) {
-			std::cout << num << " ";
-		}
-		std::cout << "\n";
-	}
+	virtual void traverse(const std::vector<int>& arr) override;
 };
 
 class ConcreteStrategyDecreasing : public Strategy
 {
 public:
-	virtual void traverse(const std::vector<int>& arr) override {
-		auto tempArr = arr;
-		std::sort(tempArr.rbegin(), tempArr.rend());
-		for (int num : tempArr) {
-			std::cout << num << " ";
-		}
-		std::cout << "\n";
-	}
+	virtual void traverse(const std::vector<int>& arr) override;
 };
