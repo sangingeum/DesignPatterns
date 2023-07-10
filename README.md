@@ -25,3 +25,4 @@ This repository contains a collection of c++ design pattern implementations
 * Mediator
 * Memento
 * Observer
+* State
