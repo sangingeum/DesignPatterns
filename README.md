@@ -29,5 +29,7 @@ This repository contains a collection of c++ design pattern implementations
 * Strategy
 * Template Method
 * Visitor
+### Architectural Patterns
+* MVC (Model-View-Controller)
 ### Miscellaneous Patterns
 * Monostate
