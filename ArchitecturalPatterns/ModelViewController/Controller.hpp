@@ -13,8 +13,11 @@ public:
 		: m_model(model), m_view(view)
 	{}
 	void handleUserInput(const std::string& input) {
-		m_view.updateString(m_model.process(input));
-		m_view.updateCounter(m_model.getCounter());
+		m_model.process(input);
+		m_view.update();
+	}
+	void displayView() const {
+		m_view.display();
 	}
 };
 

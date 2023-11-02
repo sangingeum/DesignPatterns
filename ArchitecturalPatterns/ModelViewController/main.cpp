@@ -2,16 +2,15 @@
 #include "Controller.hpp"
 
 int main() {
-	View view;
 	Model model;
+	View view{ model };
 	Controller controller{ model, view };
 	std::string input;
 	while (true) {
 		std::cout << "Enter your input: ";
 		std::cin >> input;
 		controller.handleUserInput(input);
-		std::cout << "View string: " << view.getString() << "\n";
-		std::cout << "View counter: " << view.getCounter() << "\n";
+		controller.displayView();
 	}
 
 	/* Example
