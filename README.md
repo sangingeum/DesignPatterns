@@ -5,11 +5,11 @@ This repository contains a collection of c++ design pattern implementations
 
 ### Creational Patterns
 * Abstract Factory
+* Builder
 * Factory Method
-* Singleton
 * Multiton
 * Prototype
-* Builder
+* Singleton
 ### Structural Patterns
 * Adapter
 * Bridge
@@ -29,3 +29,5 @@ This repository contains a collection of c++ design pattern implementations
 * Strategy
 * Template Method
 * Visitor
+### Miscellaneous Patterns
+* Monostate

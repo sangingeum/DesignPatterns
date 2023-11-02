@@ -1,0 +1,14 @@
+Abstraction:
+emphasize what's important & de-emphasize the unimportant
+at a particular level of detail
+Flexibility:
+apply components in various ways that weren't originally anticipated.
+resuability:
+take components developed before & apply them in new contexts,
+where they may not have been intended initially
+Modularity:
+divide & conquer a big problem space into smaller chunks
+that have low coupling & high conhesion
+Allow developers & teams can work independently
+
+
