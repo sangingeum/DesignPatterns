@@ -61,7 +61,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Monostate", "MiscPatterns\M
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArchitecturalPatterns", "ArchitecturalPatterns", "{D66ABE7B-9646-47D5-A9B6-C6E9AEAAB6A9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelViewController", "ModelViewController\ModelViewController.vcxproj", "{CCDD5DB7-9D50-44B1-A1D2-4563572AC9BE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelViewController", "ArchitecturalPatterns\ModelViewController\ModelViewController.vcxproj", "{CCDD5DB7-9D50-44B1-A1D2-4563572AC9BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
