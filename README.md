@@ -31,5 +31,6 @@ This repository contains a collection of c++ design pattern implementations
 * Visitor
 ### Architectural Patterns
 * MVC (Model-View-Controller)
+* MVP (Model-View-Presenter)
 ### Miscellaneous Patterns
 * Monostate

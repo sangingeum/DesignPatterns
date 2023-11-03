@@ -63,6 +63,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArchitecturalPatterns", "Ar
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelViewController", "ArchitecturalPatterns\ModelViewController\ModelViewController.vcxproj", "{CCDD5DB7-9D50-44B1-A1D2-4563572AC9BE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelViewPresenter", "ModelViewPresenter\ModelViewPresenter.vcxproj", "{5D286C89-1818-4C25-A294-DAAFFAD00CFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -271,6 +273,14 @@ Global
 		{CCDD5DB7-9D50-44B1-A1D2-4563572AC9BE}.Release|x64.Build.0 = Release|x64
 		{CCDD5DB7-9D50-44B1-A1D2-4563572AC9BE}.Release|x86.ActiveCfg = Release|Win32
 		{CCDD5DB7-9D50-44B1-A1D2-4563572AC9BE}.Release|x86.Build.0 = Release|Win32
+		{5D286C89-1818-4C25-A294-DAAFFAD00CFC}.Debug|x64.ActiveCfg = Debug|x64
+		{5D286C89-1818-4C25-A294-DAAFFAD00CFC}.Debug|x64.Build.0 = Debug|x64
+		{5D286C89-1818-4C25-A294-DAAFFAD00CFC}.Debug|x86.ActiveCfg = Debug|Win32
+		{5D286C89-1818-4C25-A294-DAAFFAD00CFC}.Debug|x86.Build.0 = Debug|Win32
+		{5D286C89-1818-4C25-A294-DAAFFAD00CFC}.Release|x64.ActiveCfg = Release|x64
+		{5D286C89-1818-4C25-A294-DAAFFAD00CFC}.Release|x64.Build.0 = Release|x64
+		{5D286C89-1818-4C25-A294-DAAFFAD00CFC}.Release|x86.ActiveCfg = Release|Win32
+		{5D286C89-1818-4C25-A294-DAAFFAD00CFC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -301,6 +311,7 @@ Global
 		{6EE90F28-F48A-4810-9982-903DDADF6361} = {2F9F6EEF-37BA-456D-A2AF-3C41D78663E7}
 		{91B0C1A3-3F70-4A07-AF96-96D2ED48E3CA} = {EF763AAD-68F5-43B5-89F9-70216F6A97AA}
 		{CCDD5DB7-9D50-44B1-A1D2-4563572AC9BE} = {D66ABE7B-9646-47D5-A9B6-C6E9AEAAB6A9}
+		{5D286C89-1818-4C25-A294-DAAFFAD00CFC} = {D66ABE7B-9646-47D5-A9B6-C6E9AEAAB6A9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CDB8DDD3-171F-4EE3-8DBA-39916282D172}
