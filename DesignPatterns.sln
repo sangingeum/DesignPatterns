@@ -63,7 +63,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArchitecturalPatterns", "Ar
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelViewController", "ArchitecturalPatterns\ModelViewController\ModelViewController.vcxproj", "{CCDD5DB7-9D50-44B1-A1D2-4563572AC9BE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelViewPresenter", "ModelViewPresenter\ModelViewPresenter.vcxproj", "{5D286C89-1818-4C25-A294-DAAFFAD00CFC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelViewPresenter", "ArchitecturalPatterns\ModelViewPresenter\ModelViewPresenter.vcxproj", "{5D286C89-1818-4C25-A294-DAAFFAD00CFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
