@@ -33,4 +33,5 @@ This repository contains a collection of c++ design pattern implementations
 * MVC (Model-View-Controller)
 * MVP (Model-View-Presenter)
 ### Miscellaneous Patterns
+* Behavior Tree
 * Monostate

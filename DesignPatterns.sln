@@ -65,6 +65,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelViewController", "Arch
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelViewPresenter", "ArchitecturalPatterns\ModelViewPresenter\ModelViewPresenter.vcxproj", "{5D286C89-1818-4C25-A294-DAAFFAD00CFC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BehaviorTree", "MiscPatterns\BehaviorTree\BehaviorTree.vcxproj", "{DC3B941A-693D-4452-9DA9-1CA7E1AA2914}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -281,6 +283,14 @@ Global
 		{5D286C89-1818-4C25-A294-DAAFFAD00CFC}.Release|x64.Build.0 = Release|x64
 		{5D286C89-1818-4C25-A294-DAAFFAD00CFC}.Release|x86.ActiveCfg = Release|Win32
 		{5D286C89-1818-4C25-A294-DAAFFAD00CFC}.Release|x86.Build.0 = Release|Win32
+		{DC3B941A-693D-4452-9DA9-1CA7E1AA2914}.Debug|x64.ActiveCfg = Debug|x64
+		{DC3B941A-693D-4452-9DA9-1CA7E1AA2914}.Debug|x64.Build.0 = Debug|x64
+		{DC3B941A-693D-4452-9DA9-1CA7E1AA2914}.Debug|x86.ActiveCfg = Debug|Win32
+		{DC3B941A-693D-4452-9DA9-1CA7E1AA2914}.Debug|x86.Build.0 = Debug|Win32
+		{DC3B941A-693D-4452-9DA9-1CA7E1AA2914}.Release|x64.ActiveCfg = Release|x64
+		{DC3B941A-693D-4452-9DA9-1CA7E1AA2914}.Release|x64.Build.0 = Release|x64
+		{DC3B941A-693D-4452-9DA9-1CA7E1AA2914}.Release|x86.ActiveCfg = Release|Win32
+		{DC3B941A-693D-4452-9DA9-1CA7E1AA2914}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -312,6 +322,7 @@ Global
 		{91B0C1A3-3F70-4A07-AF96-96D2ED48E3CA} = {EF763AAD-68F5-43B5-89F9-70216F6A97AA}
 		{CCDD5DB7-9D50-44B1-A1D2-4563572AC9BE} = {D66ABE7B-9646-47D5-A9B6-C6E9AEAAB6A9}
 		{5D286C89-1818-4C25-A294-DAAFFAD00CFC} = {D66ABE7B-9646-47D5-A9B6-C6E9AEAAB6A9}
+		{DC3B941A-693D-4452-9DA9-1CA7E1AA2914} = {EF763AAD-68F5-43B5-89F9-70216F6A97AA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CDB8DDD3-171F-4EE3-8DBA-39916282D172}
