@@ -1,9 +1,11 @@
 #pragma once
 #include "Subject.hpp"
 #include <string>
+
 class ConcreteSubject : public Subject
 {	
 protected:
+	std::vector<std::weak_ptr<Observer>> m_observers;
 	std::string m_state{ "Normal" };
 public:
 	virtual void notify() override;
@@ -12,5 +14,5 @@ public:
 	virtual void removeSubscriber(const std::shared_ptr<Observer>& observer) override;
 	virtual std::string getState();
 	virtual void setState(const std::string state);
-
 };
+

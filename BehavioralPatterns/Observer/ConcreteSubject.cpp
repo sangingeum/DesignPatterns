@@ -1,12 +1,13 @@
 #include "ConcreteSubject.hpp"
 #include <format>
 #include <iostream>
+
 void ConcreteSubject::notify() {
 	std::vector<size_t> toRemove;
 	size_t size = m_observers.size();
 	for (size_t i = 0; i < size; ++i) {
 		if (auto sharedObserver = m_observers[i].lock()) {
-			sharedObserver->update();
+			sharedObserver->update(m_state);
 		}
 		else {
 			toRemove.push_back(i);
@@ -14,14 +15,17 @@ void ConcreteSubject::notify() {
 	}
 	removeSubscriber(toRemove);
 }
+
 void ConcreteSubject::addSubscriber(const std::shared_ptr<Observer>& observer) {
 	m_observers.push_back(observer);
 }
+
 void ConcreteSubject::removeSubscriber(const std::vector<size_t>& indices) {
 	for (auto index : indices) {
 		m_observers.erase(m_observers.begin() + index);
 	}
 }
+
 void ConcreteSubject::removeSubscriber(const std::shared_ptr<Observer>& observer) {
 	for (auto it = m_observers.begin(); it != m_observers.end(); ++it) {
 		if ((*it).lock() == observer) {
@@ -30,6 +34,7 @@ void ConcreteSubject::removeSubscriber(const std::shared_ptr<Observer>& observer
 		}
 	}
 }
+
 std::string ConcreteSubject::getState() {
 	return m_state;
 }

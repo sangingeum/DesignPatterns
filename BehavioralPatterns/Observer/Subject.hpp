@@ -4,8 +4,6 @@
 #include <memory>
 class Subject
 {	
-protected:
-	std::vector<std::weak_ptr<Observer>> m_observers;
 public:
 	virtual ~Subject() = default;
 	virtual void notify() = 0;
