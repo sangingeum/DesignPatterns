@@ -1,6 +1,7 @@
 #include "ConcreteSubject.hpp"
 #include <format>
 #include <iostream>
+#include <algorithm>
 
 void ConcreteSubject::notify() {
 	std::vector<size_t> toRemove;
@@ -21,8 +22,12 @@ void ConcreteSubject::addSubscriber(const std::shared_ptr<Observer>& observer) {
 }
 
 void ConcreteSubject::removeSubscriber(const std::vector<size_t>& indices) {
-	for (auto index : indices) {
-		m_observers.erase(m_observers.begin() + index);
+	auto sortedIndices = indices;
+	std::sort(sortedIndices.rbegin(), sortedIndices.rend()); // Sort descending
+	for (auto index : sortedIndices) {
+		if (index < m_observers.size()) {
+			m_observers.erase(m_observers.begin() + index);
+		}
 	}
 }
 

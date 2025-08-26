@@ -5,6 +5,6 @@ class ConcreteObserver : public Observer
 protected:
 	std::string m_state{};
 public:
-	virtual void update(std::string& state) override;
+	virtual void update(const std::string& state) override;
 };
 

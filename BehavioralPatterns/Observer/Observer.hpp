@@ -5,6 +5,6 @@ class Observer
 {	
 public:
 	virtual ~Observer() = default;
-	virtual void update(std::string& state) = 0;
+	virtual void update(const std::string& state) = 0;
 };
 
